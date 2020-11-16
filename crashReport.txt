@@ -1,0 +1,5 @@
+The Mini121519-01.dmp required the use of the WinDbg windows debugging tool for dump files. Upon analysis of the .dmp file in question, I can make several conclusions:
+
+* The crash happened while running HiveMind.exe. 
+* The target machine's operating system is not supported
+* The module involved is Rtlh64 with IMAGE_NAME: Rtlh64.sys and SYMBOL_NAME: Rtlh64+152d3
